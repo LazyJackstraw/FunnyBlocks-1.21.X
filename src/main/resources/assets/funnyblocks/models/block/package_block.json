@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "funnyblocks:block/package_block_top",
+    "west": "funnyblocks:block/package_block_side",
+    "east": "funnyblocks:block/package_block_side",
+    "south": "funnyblocks:block/package_block_end",
+    "north": "funnyblocks:block/package_block_end",
+    "bottom": "funnyblocks:block/package_block_bottom",
+    "particle": "funnyblocks:block/package_block_end"
+  }
+}

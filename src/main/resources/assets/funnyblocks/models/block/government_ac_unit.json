@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "funnyblocks:block/gov_ac_unit_top",
+    "side": "funnyblocks:block/gov_ac_unit_side",
+    "front": "funnyblocks:block/gov_ac_unit_side",
+    "bottom": "funnyblocks:block/gov_ac_unit_bottom",
+    "particle": "funnyblocks:block/gov_ac_unit_top"
+  }
+
+}

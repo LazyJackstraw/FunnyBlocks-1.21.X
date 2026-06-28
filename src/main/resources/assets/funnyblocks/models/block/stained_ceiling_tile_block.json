@@ -1,0 +1,13 @@
+
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "funnyblocks:block/stained_ceiling_tile_block",
+    "west": "funnyblocks:block/stained_ceiling_tile_block",
+    "east": "funnyblocks:block/stained_ceiling_tile_block",
+    "south": "funnyblocks:block/stained_ceiling_tile_block",
+    "north": "funnyblocks:block/stained_ceiling_tile_block",
+    "bottom": "funnyblocks:block/stained_ceiling_tile_block",
+    "particle": "funnyblocks:block/stained_ceiling_tile_block"
+  }
+}

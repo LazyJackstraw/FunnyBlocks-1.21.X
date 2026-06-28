@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "funnyblocks:block/code_block"
+    }
+  }
+}

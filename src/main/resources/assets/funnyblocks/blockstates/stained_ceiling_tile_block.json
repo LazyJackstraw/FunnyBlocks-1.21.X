@@ -1,0 +1,9 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "funnyblocks:block/stained_ceiling_tile_block" },
+    "facing=east": { "model": "funnyblocks:block/stained_ceiling_tile_block", "y": 90 },
+    "facing=south": { "model": "funnyblocks:block/stained_ceiling_tile_block", "y": 180 },
+    "facing=west": { "model": "funnyblocks:block/stained_ceiling_tile_block", "y": 270 }
+  }
+}

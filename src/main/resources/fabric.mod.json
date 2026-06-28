@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "funnyblocks",
+	"version": "${version}",
+	"name": "Funny Blocks",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/LazyJackstraw/",
+		"sources": "https://github.com/LazyJackstraw/Funny-Blocks-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/funnyblocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lazyjackstraw.funnyblocks.FunnyBlocks"
+		],
+		"fabric-datagen": [
+			"net.lazyjackstraw.funnyblocks.FunnyBlocksDataGenerator"
+		],
+		"client": [
+			"net.lazyjackstraw.funnyblocks.FunnyBlocksClient"
+		]
+	},
+	"mixins": [
+		"funnyblocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
