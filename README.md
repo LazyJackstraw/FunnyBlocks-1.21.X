@@ -15,6 +15,14 @@ This mod is for anyone who wants to add a little fun to their minecraft world! C
 <img width="1920" height="1017" alt="canadian_flag_pic" src="https://github.com/user-attachments/assets/ee3047a5-60aa-4b4a-89be-d8d626ac88a4" />
 <img width="1920" height="1017" alt="glitch-hall-showcase" src="https://github.com/user-attachments/assets/75a470bd-8d40-4762-8f28-85affe9b700e" />
 <img width="1920" height="1017" alt="glitch-block-showcase" src="https://github.com/user-attachments/assets/076a44ca-76e7-4a80-bd0b-51bbdab09ad9" />
+<hr>
+<img width="1920" height="1017" alt="gov-ac-unit-recipe-showcase" src="https://github.com/user-attachments/assets/388f7512-c71a-4eda-b44d-f284467bcf59" />
+<img width="1920" height="1017" alt="nokia-phone-recipe-showcase" src="https://github.com/user-attachments/assets/b4683554-dd7a-413c-bf92-86997440fccc" />
+<img width="1920" height="1017" alt="rainbow-wool-block-recipe-showcase" src="https://github.com/user-attachments/assets/87afb70c-29eb-430f-bd99-cdf519fe365e" />
+<img width="1920" height="1017" alt="stained-ceiling-tile-recipe-showcase" src="https://github.com/user-attachments/assets/764e5256-788e-4bd5-8e94-5faedce02928" />
+<img width="1920" height="1017" alt="white-egg-block-recipe-showcase" src="https://github.com/user-attachments/assets/85385ffe-ad03-4f72-9ce8-ae7af15ebedc" />
+
+Play the mod today to see what the other blocks have in their recipes!
 
 ## Extra
 
