@@ -8,6 +8,7 @@ This mod is for anyone who wants to add a little fun to their minecraft world! C
 
 <img width="1920" height="1017" alt="all-funny-blocks" src="https://github.com/user-attachments/assets/42ba68fc-6d0e-4565-b905-dc9da8822818" />
 <img width="1920" height="1017" alt="leopard-rug-showcase-pic" src="https://github.com/user-attachments/assets/6bec9bd9-3a63-4bdf-bc73-baf9503a9b41" />
+<img width="1920" height="1017" alt="package-block-showcase" src="https://github.com/user-attachments/assets/3db169ce-7573-461a-b76c-311fa207ae88" />
 <img width="1920" height="1017" alt="liminal-ceiling-blocks-showcase-pic" src="https://github.com/user-attachments/assets/8c7b795e-a1ad-40e6-8052-0377a80f3573" />
 <img width="1920" height="1017" alt="leliel_showcase_pic" src="https://github.com/user-attachments/assets/37b443d3-d217-4970-bdf4-4a526d7bb0fb" />
 <img width="1920" height="1017" alt="nicolas-cage-block-showcase-pic" src="https://github.com/user-attachments/assets/f0001557-5a32-41ae-ad94-b1943b53d91c" />
