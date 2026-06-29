@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "minecraft:blue_wool"
+    },
+    "y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "rby",
+    "XXX"
+  ],
+  "result": {
+    "count": 7,
+    "id": "funnyblocks:cosmic_block"
+  }
+}

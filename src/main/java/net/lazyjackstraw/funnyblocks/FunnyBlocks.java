@@ -2,10 +2,14 @@ package net.lazyjackstraw.funnyblocks;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.lazyjackstraw.funnyblocks.block.ModBlocks;
 import net.lazyjackstraw.funnyblocks.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Collections;
+
 
 public class FunnyBlocks implements ModInitializer {
 	public static final String MOD_ID = "funnyblocks";
@@ -19,5 +23,19 @@ public class FunnyBlocks implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		// when the player joins the server, give them all the recipes
+		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+
+			// loop through all recipes
+			server.getRecipeManager().values().forEach(recipeEntry -> {
+
+				// filter by funnyblocks mod ID
+				if (recipeEntry.id().getNamespace().equals(FunnyBlocks.MOD_ID)) {
+					handler.player.unlockRecipes(Collections.singleton(recipeEntry));
+				}
+			});
+		});
+
 	}
 }

@@ -15,7 +15,7 @@ public class ModItemGroups {
     // Creates a custom item group for the funny blocks
     public static final ItemGroup FUNNY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FunnyBlocks.MOD_ID, "funny_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.COOKIE_BLOCK))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.DENIM_BLOCK))
                     .displayName(Text.translatable("itemgroup.funnyblocks.funny_blocks"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.ALLIUM_BLOCK);

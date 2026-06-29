@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:anvil"
+    },
+    "X": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "#X"
+  ],
+  "result": {
+    "count": 7,
+    "id": "funnyblocks:nokia_phone_block"
+  }
+}

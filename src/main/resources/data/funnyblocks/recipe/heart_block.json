@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "p": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "#Xp"
+  ],
+  "result": {
+    "count": 3,
+    "id": "funnyblocks:heart_block"
+  }
+}

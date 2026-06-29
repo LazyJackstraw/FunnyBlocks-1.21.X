@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oxidized_copper_grate"
+    },
+    "X": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 10,
+    "id": "funnyblocks:code_block"
+  }
+}

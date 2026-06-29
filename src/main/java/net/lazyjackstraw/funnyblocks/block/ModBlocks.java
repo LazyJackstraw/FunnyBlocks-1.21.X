@@ -14,7 +14,6 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-
     public static final Block ALLIUM_BLOCK = registerBlock("allium_block",
             new Block(AbstractBlock.Settings.create().strength(0.5f, 4.0f).sounds(BlockSoundGroup.FLOWERING_AZALEA)));
 
@@ -22,7 +21,7 @@ public class ModBlocks {
          new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block CAGE_BLOCK = registerBlock("cage_block",
-            new Block(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.SOUL_SAND)));
+            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.SOUL_SAND)));
 
     public static final Block CANADIAN_BLOCK = registerBlock("canadian_block",
             new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.FLOWERING_AZALEA)));
@@ -34,67 +33,67 @@ public class ModBlocks {
             new RotatingBlock(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.DEEPSLATE_TILES)));
 
     public static final Block COCK_BLOCK = registerBlock("cock_block",
-            new Block(AbstractBlock.Settings.create().strength(5.5f).sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(3.5f).sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block CODE_BLOCK = registerBlock("code_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.POLISHED_TUFF)));
+            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.POLISHED_TUFF)));
 
     public static final Block COOKIE_BLOCK = registerBlock("cookie_block",
-            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
     public static final Block CONSTRUCTION_BLOCK = registerBlock("construction_block",
             new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.STONE)));
 
     public static final Block COSMIC_BLOCK = registerBlock("cosmic_block",
-            new Block(AbstractBlock.Settings.create().strength(3.5f).sounds(BlockSoundGroup.WOOD)));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.WOOD)));
 
     public static final Block DENIM_BLOCK = registerBlock("denim_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block GLITCH_BLOCK = registerBlock("glitch_block",
-            new Block(AbstractBlock.Settings.create().strength(5.0f).sounds(BlockSoundGroup.SCAFFOLDING)));
+            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.SCAFFOLDING)));
 
     public static final Block GOVERNMENT_AC_UNIT = registerBlock("government_ac_unit",
-            new Block(AbstractBlock.Settings.create().strength(6.0f).sounds(BlockSoundGroup.HEAVY_CORE)));
+            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.HEAVY_CORE)));
 
     public static final Block HEART_BLOCK = registerBlock("heart_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.BASALT)));
+            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.BASALT)));
 
     public static final Block LELIEL_BLOCK = registerBlock("leliel_block",
-            new Block(AbstractBlock.Settings.create().strength(4.0f).sounds(BlockSoundGroup.HONEY)));
+            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.HONEY)));
 
     public static final Block LEOPARD_PRINT_BLOCK = registerBlock("leopard_print_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block LIMINAL_BLOCK = registerBlock("liminal_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.CORAL)));
+            new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.CORAL)));
 
     public static final Block NOKIA_PHONE_BLOCK = registerBlock("nokia_phone_block",
-            new Block(AbstractBlock.Settings.create().strength(50.0F, 1200.0F).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
+            new Block(AbstractBlock.Settings.create().strength(10.0F, 50.0F).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
     public static final RotatingBlock PACKAGE_BLOCK = registerBlock("package_block",
             new RotatingBlock(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.CHISELED_BOOKSHELF)));
 
     public static final Block PAPER_BLOCK = registerBlock("paper_block",
-            new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.MANGROVE_ROOTS)));
+            new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.MANGROVE_ROOTS)));
 
     public static final Block POISONOUS_POTATO_BLOCK = registerBlock("poisonous_potato_block",
             new Block(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.CORAL)));
 
     public static final Block RAINBOW_WOOL_BLOCK = registerBlock("rainbow_wool_block",
-            new Block(AbstractBlock.Settings.create().strength(2.5f).sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block ROTTEN_FLESH_BLOCK = registerBlock("rotten_flesh_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.SOUL_SOIL)));
+            new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.SOUL_SOIL)));
 
     public static final Block SPIDER_EYE_BLOCK = registerBlock("spider_eye_block",
-            new Block(AbstractBlock.Settings.create().strength(3.0f).sounds(BlockSoundGroup.SOUL_SAND)));
+            new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.SOUL_SAND)));
 
     public static final Block SUN_BLOCK = registerBlock("sun_block",
             new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
 
     public static final Block WHEAT_SEED_BLOCK = registerBlock("wheat_seed_block",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.CROP)));
+            new Block(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.CROP)));
 
     public static final Block WHITE_EGG_BLOCK = registerBlock("white_egg_block",
             new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.DECORATED_POT)));
@@ -104,12 +103,6 @@ public class ModBlocks {
 
     public static final Block BROWN_EGG_BLOCK = registerBlock("brown_egg_block",
             new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.DECORATED_POT)));
-
-
-
-
-
-
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -166,5 +159,4 @@ public class ModBlocks {
             entries.add(ModBlocks.BROWN_EGG_BLOCK);
         });
     }
-
 }

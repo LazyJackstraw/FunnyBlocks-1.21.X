@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "funnyblocks:wheat_seed_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:wheat_seeds"
+  }
+}
