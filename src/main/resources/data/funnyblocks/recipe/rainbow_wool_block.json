@@ -1,42 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "o": {
-      "item": "minecraft:orange_wool"
-    },
-    "r": {
-      "item": "minecraft:red_wool"
-    },
-    "y": {
-      "item": "minecraft:yellow_wool"
-    },
-    "g": {
-      "item": "minecraft:green_wool"
-    },
-    "b": {
-      "item": "minecraft:blue_wool"
-    },
-    "m": {
-      "item": "minecraft:magenta_wool"
-    },
-    "p": {
-      "item": "minecraft:purple_wool"
-    },
-    "k": {
-      "item": "minecraft:pink_wool"
-    },
-    "c": {
-      "item": "minecraft:cyan_wool"
-    }
-  },
-  "pattern": [
-    "ory",
-    "gbm",
-    "pkc"
+  "ingredients": [
+    { "item": "minecraft:orange_wool" },
+    { "item": "minecraft:red_wool" },
+    { "item": "minecraft:yellow_wool" },
+    { "item": "minecraft:green_wool" },
+    { "item": "minecraft:blue_wool" },
+    { "item": "minecraft:magenta_wool" },
+    { "item": "minecraft:purple_wool" },
+    { "item": "minecraft:pink_wool" },
+    { "item": "minecraft:cyan_wool" }
   ],
   "result": {
-    "count": 15,
+    "count": 10,
     "id": "funnyblocks:rainbow_wool_block"
   }
 }
