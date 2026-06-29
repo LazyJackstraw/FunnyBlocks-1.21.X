@@ -3,16 +3,16 @@
 	"id": "funnyblocks",
 	"version": "${version}",
 	"name": "Funny Blocks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds 30 new fun blocks to Minecraft! Be sure to craft them all!",
 	"authors": [
-		"Me!"
+		"LazyJackstraw"
 	],
 	"contact": {
 		"homepage": "https://github.com/LazyJackstraw/",
-		"sources": "https://github.com/LazyJackstraw/Funny-Blocks-1.21.X"
+		"sources": "https://github.com/LazyJackstraw/FunnyBlocks-1.21.X"
 	},
 	"license": "MIT",
-	"icon": "assets/funnyblocks/icon.png",
+	"icon": "assets/funnyblocks/funny-blocks-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
