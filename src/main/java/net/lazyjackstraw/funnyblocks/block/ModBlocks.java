@@ -68,8 +68,8 @@ public class ModBlocks {
     public static final Block LIMINAL_BLOCK = registerBlock("liminal_block",
             new Block(AbstractBlock.Settings.create().strength(1.0f).sounds(BlockSoundGroup.CORAL)));
 
-    public static final Block NOKIA_PHONE_BLOCK = registerBlock("nokia_phone_block",
-            new Block(AbstractBlock.Settings.create().strength(10.0F, 50.0F).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
+    public static final RotatingBlock NOKIA_PHONE_BLOCK = registerBlock("nokia_phone_block",
+            new RotatingBlock(AbstractBlock.Settings.create().strength(10.0F, 50.0F).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
     public static final RotatingBlock PACKAGE_BLOCK = registerBlock("package_block",
             new RotatingBlock(AbstractBlock.Settings.create().strength(2.0f).sounds(BlockSoundGroup.CHISELED_BOOKSHELF)));

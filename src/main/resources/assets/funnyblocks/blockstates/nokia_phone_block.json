@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "funnyblocks:block/nokia_phone_block"
-    }
+    "facing=north": { "model": "funnyblocks:block/nokia_phone_block" },
+    "facing=east": { "model": "funnyblocks:block/nokia_phone_block", "y": 90 },
+    "facing=south": { "model": "funnyblocks:block/nokia_phone_block", "y": 180 },
+    "facing=west": { "model": "funnyblocks:block/nokia_phone_block", "y": 270 }
   }
 }

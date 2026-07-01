@@ -29,5 +29,8 @@
   "block.funnyblocks.sun_block": "Sun Block",
   "block.funnyblocks.wheat_seed_block": "Wheat Seed Block",
   "block.funnyblocks.white_egg_block": "White Egg Block",
-  "itemgroup.funnyblocks.funny_blocks": "Funny Blocks"
+  "itemgroup.funnyblocks.funny_blocks": "Funny Blocks",
+
+  "painting.funnyblocks.such_the_lazy_jackstraw.title": "Such the Lazy Jackstraw",
+  "painting.funnyblocks.such_the_lazy_jackstraw.author": "LazyJackstraw"
 }
