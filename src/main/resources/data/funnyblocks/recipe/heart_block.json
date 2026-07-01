@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "X": {
-      "item": "minecraft:leather"
-    },
-    "p": {
-      "item": "minecraft:pink_dye"
-    }
+    "#": "minecraft:rotten_flesh",
+    "X": "minecraft:leather",
+    "p": "minecraft:pink_dye"
   },
   "pattern": [
     "#Xp"

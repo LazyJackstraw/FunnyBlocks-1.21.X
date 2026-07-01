@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/orientable",
   "textures": {
-    "all": "funnyblocks:block/nokia_phone_block"
+    "front": "funnyblocks:block/nokia_phone_block",
+    "top": "funnyblocks:block/nokia_phone_block_sides",
+    "bottom": "funnyblocks:block/nokia_phone_block_sides",
+    "side": "funnyblocks:block/nokia_phone_block_sides"
   }
 }

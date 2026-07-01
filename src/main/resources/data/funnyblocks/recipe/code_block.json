@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:oxidized_copper_grate"
-    },
-    "X": {
-      "item": "minecraft:black_wool"
-    }
+    "#": "minecraft:oxidized_copper_grate",
+    "X": "minecraft:black_wool"
   },
   "pattern": [
     "###",
