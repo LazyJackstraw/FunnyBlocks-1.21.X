@@ -1,4 +1,3 @@
-
 {
   "variants": {
     "facing=north": { "model": "funnyblocks:block/stained_ceiling_tile_block" },
