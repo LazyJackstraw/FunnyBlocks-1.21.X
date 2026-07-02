@@ -31,7 +31,7 @@ public class FunnyBlocks implements ModInitializer {
 			server.getRecipeManager().values().forEach(recipeEntry -> {
 
 				// filter by funnyblocks mod ID
-				if (recipeEntry.id().getNamespace().equals(FunnyBlocks.MOD_ID)) {
+				if (recipeEntry.id().getValue().getNamespace().equals(FunnyBlocks.MOD_ID)) {
 					handler.player.unlockRecipes(Collections.singleton(recipeEntry));
 				}
 			});
