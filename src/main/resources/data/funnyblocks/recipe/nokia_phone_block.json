@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:anvil" },
-    { "item": "minecraft:obsidian" }
+    "minecraft:anvil",
+    "minecraft:obsidian"
   ],
   "result": {
     "count": 4,

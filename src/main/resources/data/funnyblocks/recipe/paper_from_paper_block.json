@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "funnyblocks:paper_block"
-    }
+    "funnyblocks:paper_block"
   ],
   "result": {
     "count": 9,

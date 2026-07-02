@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "funnyblocks:cage_block"
-    }
+    "funnyblocks:cage_block"
   ],
   "result": {
     "count": 1,

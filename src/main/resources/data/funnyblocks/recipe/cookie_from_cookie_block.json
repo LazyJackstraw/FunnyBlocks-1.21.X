@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "funnyblocks:cookie_block"
-    }
+    "funnyblocks:cookie_block"
   ],
   "result": {
     "count": 9,

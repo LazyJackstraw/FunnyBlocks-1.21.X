@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:allium"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": "minecraft:allium"
+  },
   "result": {
-    "count": 5,
     "id": "funnyblocks:allium_block"
   }
 }

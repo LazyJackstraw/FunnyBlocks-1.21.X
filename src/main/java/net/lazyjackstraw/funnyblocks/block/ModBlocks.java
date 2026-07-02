@@ -14,11 +14,12 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
+import java.util.function.Function;
+
 public class ModBlocks {
 
     public static final Block ALLIUM_BLOCK = registerBlock("allium_block",
-            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FunnyBlocks.MOD_ID, "allium_block")))
-                    .strength(0.5f, 4.0f).sounds(BlockSoundGroup.FLOWERING_AZALEA)));
+            properties -> new Block(properties.strength(.5f, 4.0f).sounds(BlockSoundGroup.FLOWERING_AZALEA)));
 
     public static final Block BLANK_TERRACOTTA_BLOCK = registerBlock("blank_terracotta_block",
          new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FunnyBlocks.MOD_ID, "blank_terracotta_block")))
@@ -135,6 +136,18 @@ public class ModBlocks {
     public static final Block BROWN_EGG_BLOCK = registerBlock("brown_egg_block",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FunnyBlocks.MOD_ID, "brown_egg_block")))
                     .strength(1.0f).sounds(BlockSoundGroup.DECORATED_POT)));
+
+    private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
+        Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(FunnyBlocks.MOD_ID, name))));
+        registerBlockItem2(name, toRegister);
+        return Registry.register(Registries.BLOCK, Identifier.of(FunnyBlocks.MOD_ID, name), toRegister);
+    }
+
+    private static void registerBlockItem2(String name, Block block) {
+        Registry.register(Registries.ITEM, Identifier.of(FunnyBlocks.MOD_ID, name),
+                new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey()
+                        .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FunnyBlocks.MOD_ID, name)))));
+    }
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

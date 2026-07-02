@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:water_bucket"
-    },
-    "X": {
-      "item": "minecraft:beef"
-    },
-    "b": {
-      "item": "minecraft:black_dye"
-    }
+    "#": "minecraft:water_bucket",
+    "X": "minecraft:beef",
+    "b": "minecraft:black_dye"
   },
   "pattern": [
     "#Xb"

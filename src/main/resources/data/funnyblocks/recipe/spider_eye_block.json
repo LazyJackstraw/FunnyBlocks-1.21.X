@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "X": {
-      "item": "minecraft:spider_eye"
-    }
+    "#": "minecraft:rotten_flesh",
+    "X": "minecraft:spider_eye"
   },
   "pattern": [
     "###",
